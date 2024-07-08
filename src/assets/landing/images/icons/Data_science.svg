@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1852" data-name="Rectangle 1852" width="100" height="100" transform="translate(-15.891 15)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5489" data-name="Mask Group 5489" transform="translate(15.891 -15)" clip-path="url(#clip-path)">
+    <g id="iOS_Swift" data-name="iOS Swift" transform="translate(-15.891 15)">
+      <rect id="Rectangle_1688" data-name="Rectangle 1688" width="100" height="100" fill="none"/>
+      <g id="Group_5799" data-name="Group 5799" transform="translate(11.574 11.574)">
+        <circle id="Ellipse_195" data-name="Ellipse 195" cx="15.37" cy="15.37" r="15.37" transform="translate(0 34.584)" fill="#41bfad"/>
+        <circle id="Ellipse_196" data-name="Ellipse 196" cx="9.606" cy="9.606" r="9.606" transform="translate(42.269 57.639)" fill="#41bfad"/>
+        <circle id="Ellipse_197" data-name="Ellipse 197" cx="23.056" cy="23.056" r="23.056" transform="translate(30.741)" fill="#41bfad"/>
+      </g>
+    </g>
+  </g>
+</svg>

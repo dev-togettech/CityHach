@@ -20,14 +20,13 @@ export default function AppRouter() {
 			children: [
 				// pages non protegées
 				{
-					path: 'landing',
+					path: '',
 					index: true,
 					element: <LandingPage />,
 				},
 
 				{
 					path: 'showcase',
-					index: true,
 					element: <ShowcasePage />,
 				},
 

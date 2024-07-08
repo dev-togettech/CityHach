@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="31" viewBox="0 0 62 31">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Union_2" data-name="Union 2" d="M41.333,31V20.667H62V31ZM31,31V10.333H41.333V31ZM10.333,31V10.333H20.667V31Zm31-20.667V0H62V10.333ZM0,10.333V0H31V10.333Z" fill="#666"/>
+    </clipPath>
+  </defs>
+  <g id="press-banner-techcrunch" clip-path="url(#clip-path)">
+    <g id="TechCrunch" transform="translate(0)">
+      <rect id="Rectangle_1926" data-name="Rectangle 1926" width="62" height="31" fill="#666"/>
+      <rect id="logo-gradient" width="62" height="31" fill="#666"/>
+    </g>
+  </g>
+</svg>
