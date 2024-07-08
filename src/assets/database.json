@@ -1,8 +1,76 @@
 {
-    "talents":[
-
-    ],
-    "organisations":[
-        
-    ]
+  "talents": [],
+  "organisations": [],
+  "providers": [
+    {
+      "id": 1,
+      "photo": "url/photo1.jpg",
+      "name": "Noah",
+      "firstname": "Serge Gaetan",
+      "age": 30,
+      "birthdate": "1993-07-15",
+      "birthPlace": "Yaoundé, Cameroon",
+      "experiences": [
+        {
+          "title": "Full Stack Developer",
+          "description": "TOGETTECH - Independent, Jul 2023 - Present"
+        },
+        {
+          "title": "Network Engineer Intern",
+          "description": "Les Petits Pas - Micro-crèche, Mar 2024"
+        },
+        {
+          "title": "Dev",
+          "type": "contract",
+          "company": "Test",
+          "location": "11.23202 6.956",
+          "startDate": "2019-05",
+          "endDate": "2024-12",
+          "description": "dfvgb"
+        },
+        {
+          "title": "Another",
+          "type": "part-time",
+          "company": "Togettech",
+          "location": "Yaounde",
+          "startDate": "2024-06",
+          "endDate": "2024-12",
+          "description": "Desc"
+        }
+      ],
+      "educations": [
+        {
+          "institution": "Cisco Networking Academy",
+          "degree": "Security / Information Systems Security, Mar 2021 - Dec 2023"
+        }
+      ],
+      "skills": [
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "React"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "title": "NextJs",
+          "name": "Dev"
+        }
+      ],
+      "interests": [
+        {
+          "name": "Reading"
+        },
+        {
+          "name": "Traveling"
+        },
+        {
+          "title": "Danse",
+          "name": "Danse"
+        }
+      ]
+    }
+  ]
 }

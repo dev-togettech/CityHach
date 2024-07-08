@@ -6,6 +6,7 @@ import {
 import { Layout } from './layout.tsx';
 import { ErrorPage } from './error-page'
 import { ProtectedRoute } from './protected-route.tsx';
+import ProfileProvider from '../components/ProfileProvider.tsx';
 
 const AuthPage = lazy(() => import('../pages/auth.page'));
 const LandingPage = lazy(() => import('../pages/landing.page.tsx'));
@@ -50,6 +51,17 @@ export default function AppRouter() {
 				{
 					path: 'talent',
 					element: <ProtectedRoute />,
+					errorElement: <ErrorPage />,
+					children: [
+						
+
+					]
+				},
+
+				// Les routes concernant uniquement les talents
+				{
+					path: 'Profile',
+					element: <ProfileProvider  />,
 					errorElement: <ErrorPage />,
 					children: [
 						
