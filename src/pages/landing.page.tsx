@@ -1,6 +1,8 @@
 /*
 * La landing page.
 *  */
+import {Image} from "react-bootstrap";
+
 export default function LandingPage() {
 	return <>
 
@@ -10,8 +12,8 @@ export default function LandingPage() {
 				<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
 
 					<a href="#" className="flex items-center">
-						<img src="Resource/images/icons/Turing-logo.jpeg" className="h-6 mr-3 sm:h-10" alt="Logo"/>
-						<span className="self-center text-xl font-semibold whitespace-nowrap">Web Alliance</span>
+						<img src="src/assets/landing/images/icons/turing-logo-alt.png" className="h-6 mr-3 sm:h-10" alt="Logo"/>
+						<span className="self-center text-xl font-semibold whitespace-nowrap">Aviato</span>
 					</a>
 					<button data-collapse-toggle="navbar-dropdown" type="button"
 							className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
@@ -37,11 +39,7 @@ export default function LandingPage() {
 								   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Hire
 									Developers</a>
 							</li>
-							<li className="pl-10 text-xl font-normal">
-								<a href="#"
-								   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Hire
-									a Team</a>
-							</li>
+
 
 							<li className="pl-10">
 								<button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
@@ -103,10 +101,7 @@ export default function LandingPage() {
 						   className="inline-flex items-center justify-center px-8 py-4 mr-3 text-base font-sans font-medium text-center text-white rounded-lg bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-cyan-500">
 							Hire Developers
 						</a>
-						<a href="#"
-						   className="inline-flex items-center justify-center px-12 py-4 text-base font-sans font-medium text-center text-blue-600 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
-							Hire a Team
-						</a>
+
 					</div>
 					<div className="mt-11">
 						<p className="text-base font-sans">Looking for Jobs?
@@ -117,7 +112,7 @@ export default function LandingPage() {
 					</div>
 				</div>
 				<div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-					<img src="Resource/images/Home/image-1.png" alt="mockup"/>
+					<img src="src/assets/landing/images/Home/image-1.png" alt="mockup"/>
 				</div>
 			</div>
 		</section>
@@ -129,16 +124,16 @@ export default function LandingPage() {
 					Traditional recruiting is over. Welcome to the Talent Cloud.
 				</h1>
 				<p className="font-sans font-normal text-lg">
-					Join hundreds of companies trusting Turing for their remote engineering needs.
+					Join hundreds of companies trusting Aviato for their remote engineering needs.
 				</p>
 			</div>
 			<div className="flex space-x-10 pb-10">
-				<img src="Resource/images/icons/icon-comp-1.png" alt=""/>
-				<img src="Resource/images/icons/icon-comp-2.png" alt=""/>
-				<img src="Resource/images/icons/icon-comp-3.png" alt=""/>
-				<img src="Resource/images/icons/icon-comp-4.png" alt=""/>
-				<img src="Resource/images/icons/icon-comp-5.png" alt=""/>
-				<img src="Resource/images/icons/icon-comp-6.png" alt=""/>
+				<img src="src/assets/landing/images/icons/icon-comp-1.png" alt=""/>
+				<img src="src/assets/landing/images/icons/icon-comp-2.png" alt=""/>
+				<img src="src/assets/landing/images/icons/icon-comp-3.png" alt=""/>
+				<img src="src/assets/landing/images/icons/icon-comp-4.png" alt=""/>
+				<img src="src/assets/landing/images/icons/icon-comp-5.png" alt=""/>
+				<img src="src/assets/landing/images/icons/icon-comp-6.png" alt=""/>
 			</div>
 		</section>
 
@@ -146,7 +141,7 @@ export default function LandingPage() {
 		<section className="bg-white">
 			<div className="grid max-w-screen-xl px-4 py-20 mx-auto gap-x-20  grid-cols-12">
 				<div className="mr-auto place-self-center hidden lg:mt-0 col-span-6 lg:flex">
-					<img className="object-cover" src="Resource/images/Home/image-2.png" alt="mockup"/>
+					<img className="object-cover" src="src/assets/landing/images/Home/image-2.png" alt="mockup"/>
 				</div>
 				<div className="place-self-center col-span-6">
 					<p className="text-gray-500 font-bold py-2">CLIENTS</p>
@@ -154,7 +149,7 @@ export default function LandingPage() {
 						Hire a dedicated development team
 					</h1>
 					<p className="max-w-2xl mb-6 text-lg font-light text-gray-500 text-base">
-						A complete, hands-off solution to complex, hands-on problems. Turing will consult with you on
+						A complete, hands-off solution to complex, hands-on problems. Aviato will consult with you on
 						your
 						specific project needs, then build a dedicated development team to deliver your solution.
 					</p>
@@ -177,7 +172,7 @@ export default function LandingPage() {
 					<p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
 						A software-first solution to any engineering problem. Use our AI-powered deep-vetting platform
 						to
-						hire and manage the right remote developers, tech leads, and others for your resource needs.
+						hire and manage the right remote developers, tech leads, and others for your src/assets/landing needs.
 					</p>
 					<a href="#"
 					   className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-blue-600">
@@ -185,7 +180,7 @@ export default function LandingPage() {
 					</a>
 				</div>
 				<div className="hidden lg:mt-0 col-span-4 lg:flex">
-					<img src="Resource/images/Home/image-3.png" alt="mockup"/>
+					<img src="src/assets/landing/images/Home/image-3.png" alt="mockup"/>
 				</div>
 			</div>
 		</section>
@@ -194,7 +189,7 @@ export default function LandingPage() {
 		<section className="bg-white">
 			<div className="grid max-w-screen-xl px-4 py-10 mx-auto gap-x-20  grid-cols-12">
 				<div className="mr-auto place-self-center hidden lg:mt-0 col-span-6 lg:flex">
-					<img className="object-cover" src="Resource/images/Home/image-4.png" alt="mockup"/>
+					<img className="object-cover" src="src/assets/landing/images/Home/image-4.png" alt="mockup"/>
 				</div>
 				<div className="place-self-center col-span-6">
 					<p className="text-gray-500 font-bold py-2">DEVELOPERS</p>
@@ -218,7 +213,7 @@ export default function LandingPage() {
 
 		<section className="max-w-screen-xl mx-auto pt-20">
 			<h1 className="text-5xl font-sans leading-snug font-medium">
-				Turing combines global reach and AI to deliver your ideal remote developers
+				Aviato combines global reach and AI to deliver your ideal remote developers
 			</h1>
 		</section>
 
@@ -229,7 +224,7 @@ export default function LandingPage() {
 
 					<div
 						className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow-lg">
-						<img src="Resource/images/Home/card-1.png" alt=""/>
+						<img src="src/assets/landing/images/Home/card-1.png" alt=""/>
 						<h1 className="text-xl font-medium mb-4 text-left">Tailored to your <br/> requirements</h1>
 
 						<ul role="list" className="mb-8 space-y-4 text-left">
@@ -305,7 +300,7 @@ export default function LandingPage() {
 
 					<div
 						className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow-lg">
-						<img src="Resource/images/Home/card-2.png" alt=""/>
+						<img src="src/assets/landing/images/Home/card-2.png" alt=""/>
 						<h1 className="text-xl text-left font-medium mt-3 mb-4">Your ideal developer</h1>
 
 						<ul role="list" className="mb-8 space-y-4 text-left">
@@ -341,7 +336,7 @@ export default function LandingPage() {
 
 
 		<section className="max-w-screen-xl mx-auto font-sans mb-20">
-			<h1 className="text-center text-3xl mb-20 font-medium">Why business are choosing Turing</h1>
+			<h1 className="text-center text-3xl mb-20 font-medium">Why business are choosing Aviato</h1>
 			<div className="grid grid-cols-3">
 
 				<div className="max-w-sm py-6 pl-20 bg-white rounded-lg">
@@ -393,7 +388,7 @@ export default function LandingPage() {
 				<h1 className="text-5xl">
 					<strong>2 Million+</strong> developers <br/>
 					from <strong>150 countries</strong> <br/>
-					have already joined Turing
+					have already joined Aviato
 				</h1>
 
 				<div className="flex mt-12 mb-20">
@@ -426,11 +421,11 @@ export default function LandingPage() {
 		<section className="bg-[#f8f8f8] font-sans">
 			<div className="grid max-w-screen-xl px-4 py-20 mx-auto gap-x-20  grid-cols-12">
 				<div className="mr-auto place-self-center hidden lg:mt-0 col-span-6 lg:flex">
-					<img className="object-cover" src="Resource/images/Home/image-5.png" alt="mockup"/>
+					<img className="object-cover" src="src/assets/landing/images/Home/image-5.png" alt="mockup"/>
 				</div>
 				<div className="place-self-center col-span-6">
 					<h1 className="max-w-2xl mb-4 text-5xl font-medium font-sans tracking-tight leading-snug">
-						Why are the best developers joining Turing?
+						Why are the best developers joining Aviato?
 						<span className="text-blue-600">Because they want careers, not gigs.</span>
 					</h1>
 					<div className="max-w-2xl mb-6">
@@ -440,7 +435,7 @@ export default function LandingPage() {
 						</div>
 						<div className="text-2xl font-normal mb-5">
 							<i className="fa-solid fa-atom bg-blue-100 text-blue-600 p-3 rounded-lg"></i>
-							<p className="ml-2 inline">Exclusive Turing developer success support</p>
+							<p className="ml-2 inline">Exclusive Aviato developer success support</p>
 						</div>
 						<div className="text-2xl font-normal">
 							<i className="fa-solid fa-piggy-bank bg-blue-100 text-blue-600 p-3 rounded-lg"></i>
@@ -460,9 +455,9 @@ export default function LandingPage() {
 			<div className="max-w-screen-xl mx-auto my-16">
 				<div className="flex justify-between">
 					<div>
-						<h1 className="text-3xl font-semibold mb-3">People ❤️ Turing</h1>
+						<h1 className="text-3xl font-semibold mb-3">People ❤️ Aviato</h1>
 						<p>
-							Read Turing.com reviews from developers across the world <br/>
+							Read Aviato.com reviews from developers across the world <br/>
 							and learn what it’s like working with top U.S. companies.
 						</p>
 					</div>
@@ -476,7 +471,7 @@ export default function LandingPage() {
 						<p className="text-sm font-light my-2 text-gray-400">
 							based on developer reviews as of January 2023
 						</p>
-						<a className="text-blue-600" href="https://www.turing.com/review">View all reviews</a>
+						<a className="text-blue-600" href="https://www.Aviato.com/review">View all reviews</a>
 					</div>
 				</div>
 			</div>
@@ -505,7 +500,7 @@ export default function LandingPage() {
 					<p className="text-sm font-bold">Manas, India</p>
 					<p className="text-sm">Data Scientist</p>
 					<div className="mt-10 italic">
-						"Working with turing has shown me how wrong the work-life balance model is at traditional
+						"Working with Aviato has shown me how wrong the work-life balance model is at traditional
 						in-office
 						teams."
 					</div>
@@ -521,7 +516,7 @@ export default function LandingPage() {
 					<p className="text-sm">ML Engineer</p>
 					<div className="mt-10 italic">
 						"Matching companies with the best developers and developers with their dream jobs. Everyone who
-						works at Turing really feels they're a part of something big."
+						works at Aviato really feels they're a part of something big."
 					</div>
 				</div>
 				<div className="bottom-left text-lg p-5"><i className="fa-solid fa-circle-play mr-2"></i>Watch Video
@@ -535,7 +530,7 @@ export default function LandingPage() {
 					<p className="text-sm">Android Developer</p>
 					<div className="mt-10">
 						"I have never enjoyed working more and I feel very fulfilled to be involved in such exciting
-						projects. Turing often meets my expectation, but often exceeds them."
+						projects. Aviato often meets my expectation, but often exceeds them."
 					</div>
 				</div>
 				<div className="bottom-left text-lg p-5"><i className="fa-solid fa-circle-play mr-2"></i>Watch Video
@@ -548,7 +543,7 @@ export default function LandingPage() {
 					<p className="text-sm font-bold">Mukul, India</p>
 					<p className="text-sm">Technical Architect</p>
 					<div className="mt-10">
-						"The best thing about turing is that it gives me a sense of freedom. I realized how important a
+						"The best thing about Aviato is that it gives me a sense of freedom. I realized how important a
 						healthy work-life balance is for my career growth."
 					</div>
 				</div>
@@ -592,14 +587,14 @@ export default function LandingPage() {
 
 				<div className="hidden duration-700 ease-in-out" data-carousel-item>
 					<div className="text-4xl text-center mt-36">
-						"Turing books $87M at a $7.1B valuation to help source, hire <br/>
+						"Aviato books $87M at a $7.1B valuation to help source, hire <br/>
 						and manage engineers remotely"
 					</div>
 				</div>
 
 				<div className="hidden duration-700 ease-in-out" data-carousel-item="active">
 					<div className="text-4xl text-center mt-36">
-						"Turing named one of America's Best Startup Employers for <br/>
+						"Aviato named one of America's Best Startup Employers for <br/>
 						2022 by Forbes"
 					</div>
 				</div>
@@ -613,7 +608,7 @@ export default function LandingPage() {
 
 				<div className="hidden duration-700 ease-in-out" data-carousel-item>
 					<div className="text-4xl text-center mt-36">
-						"Turing named to Fast Company's World's Most Innovative <br/>
+						"Aviato named to Fast Company's World's Most Innovative <br/>
 						Companies 2021 for placing remote devs at top firms via <br/>
 						Al-powered vetting"
 					</div>
@@ -621,7 +616,7 @@ export default function LandingPage() {
 
 				<div className="hidden duration-700 ease-in-out" data-carousel-item>
 					<div className="text-4xl text-center mt-36">
-						"Turing helps entrepreneurs tap into the global talent pool <br/>
+						"Aviato helps entrepreneurs tap into the global talent pool <br/>
 						to hire elite, pre-vetted remote engineers at the push of a <br/>
 						button"
 					</div>
@@ -659,11 +654,11 @@ export default function LandingPage() {
 
 		<section className="max-w-screen-lg mx-auto mb-20">
 			<div className="flex justify-between">
-				<img src="Resource/images/icons/review icon/tc.svg" alt=""/>
-				<img src="Resource/images/icons/review icon/forbes.svg" alt=""/>
-				<img src="Resource/images/icons/review icon/the-info.svg" alt=""/>
-				<img src="Resource/images/icons/review icon/fs.svg" alt=""/>
-				<img src="Resource/images/icons/review icon/entrepreneur.svg" alt=""/>
+				<img src="src/assets/landing/images/icons/review icon/tc.svg" alt=""/>
+				<img src="src/assets/landing/images/icons/review icon/forbes.svg" alt=""/>
+				<img src="src/assets/landing/images/icons/review icon/the-info.svg" alt=""/>
+				<img src="src/assets/landing/images/icons/review icon/fs.svg" alt=""/>
+				<img src="src/assets/landing/images/icons/review icon/entrepreneur.svg" alt=""/>
 			</div>
 		</section>
 
@@ -688,8 +683,8 @@ export default function LandingPage() {
 					<div className="mb-6 md:mb-0 flex flex-col justify-between">
 						<div>
 							<a href="https://flowbite.com/" className="flex items-center">
-								<img src="Resource/images/icons/turing-logo-alt.png" className="h-8 mr-3"
-									 alt="FlowBite Logo"/>
+								{/*../assets/landing/images/icons/Aviato-logo-alt.png*/}
+								<Image src="src/assets/landing/images/icons/Aviato-logo-alt.png"  className="h-8 mr-3" alt={"FlowBite Logo"}/>
 								<span className="self-center text-3xl text-white font-bold whitespace-nowrap">
                                 Web Alliance
                             </span>
@@ -756,7 +751,7 @@ export default function LandingPage() {
 									<a href="https://tailwindcss.com/" className="hover:underline">Interview Q/A</a>
 								</li>
 								<li className="mb-4">
-									<a href="https://tailwindcss.com/" className="hover:underline">Hiring Resources</a>
+									<a href="https://tailwindcss.com/" className="hover:underline">Hiring src/assets/landings</a>
 								</li>
 							</ul>
 						</div>
@@ -855,7 +850,7 @@ export default function LandingPage() {
 				<hr className="my-6 border-gray-200 sm:mx-auto lg:my-8"/>
 				<div className="sm:flex sm:items-center sm:justify-between">
 					<p className="text-sm text-gray-500">
-						<span className="text-2xl text-left">© 2023 Turing</span>
+						<span className="text-2xl text-left">© 2023 Aviato</span>
 						<span className="block text-left mt-4">This site is built for educational purposes only.</span>
 					</p>
 
