@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1852" data-name="Rectangle 1852" width="100" height="100" transform="translate(-15.891 15)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5489" data-name="Mask Group 5489" transform="translate(15.891 -15)" clip-path="url(#clip-path)">
+    <g id="iOS_Swift" data-name="iOS Swift" transform="translate(-15.891 15)">
+      <rect id="Rectangle_1688" data-name="Rectangle 1688" width="100" height="100" fill="none"/>
+      <path id="Path_2554" data-name="Path 2554" d="M72.214,7.477a19.337,19.337,0,0,0-19.25,4.607L42.857,21.049l-5.429,4.786h.036L27.857,34.37a12.193,12.193,0,0,1-11.143,3.286,11.978,11.978,0,0,1-9.179-8.893A12.117,12.117,0,0,1,28,17.441l1.679,1.464a3.58,3.58,0,1,0,4.75-5.357l-1.5-1.286a19.213,19.213,0,1,0-.179,27.321l10.107-8.929.036.036,5.393-4.857H48.25L57.857,17.3A12.193,12.193,0,0,1,69,14.013a11.978,11.978,0,0,1,9.179,8.893A12.117,12.117,0,0,1,57.714,34.227L56,32.727a3.58,3.58,0,1,0-4.75,5.357l1.5,1.321A19.31,19.31,0,0,0,85.429,22.691,18.98,18.98,0,0,0,72.214,7.477Z" transform="translate(7.162 24.166)" fill="#41bfad"/>
+    </g>
+  </g>
+</svg>
