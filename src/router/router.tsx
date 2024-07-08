@@ -20,7 +20,7 @@ export default function AppRouter() {
 			children: [
 				// pages non protegées
 				{
-					path: '',
+					path: 'landing',
 					index: true,
 					element: <LandingPage />,
 				},
@@ -32,7 +32,7 @@ export default function AppRouter() {
 				},
 
 
-				
+
 				// Les routes concernant uniquement les entreprises
 				{
 					path: 'org',
