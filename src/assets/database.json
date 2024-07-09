@@ -72,5 +72,87 @@
         }
       ]
     }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Tech Innovators Inc.",
+      "officialName": "Tech Innovators Incorporated",
+      "creationText": "Official decree 123/2020",
+      "website": "https://techinnovators.example.com",
+      "logoUrl": "https://via.placeholder.com/50",
+      "objectives": [
+        {
+          "name": "Innovation",
+          "description": "To lead the market in innovative tech solutions."
+        },
+        {
+          "name": "Customer Satisfaction",
+          "description": "To achieve the highest levels of customer satisfaction."
+        }
+      ],
+      "locations": [
+        {
+          "city": "San Francisco",
+          "district": "Downtown",
+          "street": "123 Market Street",
+          "telephone": "555-1234",
+          "email": "contact@techinnovators.example.com"
+        },
+        {
+          "city": "New York",
+          "district": "Midtown",
+          "street": "456 7th Avenue",
+          "telephone": "555-5678",
+          "email": "nyc@techinnovators.example.com"
+        }
+      ],
+      "size": {
+        "employeeCount": "75",
+        "creationDate": "2024-07-05",
+        "majorEvent": "781"
+      },
+      "testimonials": [
+        {
+          "author": "John Doe",
+          "quote": "Tech Innovators has transformed our business!"
+        },
+        {
+          "author": "Jane Smith",
+          "quote": "Their customer service is outstanding!"
+        },
+        {
+          "author": "Emily Johnson",
+          "quote": "Innovative solutions and great support!"
+        },
+        {
+          "author": "Anderson Adrew",
+          "quote": "Just a bad of the worse.."
+        }
+      ]
+    }
+  ],
+  "trainings": [
+    {
+      "id": 1,
+      "title": "Formation en Développement Web",
+      "description": "Apprenez à créer des sites web modernes et responsives.",
+      "imageUrl": "https://via.placeholder.com/150",
+      "companies": [1, 2]
+    },
+    {
+      "id": 2,
+      "title": "Formation en Cybersécurité",
+      "description": "Devenez un expert en sécurité informatique.",
+      "imageUrl": "https://via.placeholder.com/150",
+      "companies": [1, 3]
+    },
+    {
+      "id": 3,
+      "title": "Formation en Data Science",
+      "description": "Analysez et exploitez les données pour en tirer des insights.",
+      "imageUrl": "https://via.placeholder.com/150",
+      "companies": [1, 3]
+    }
   ]
 }

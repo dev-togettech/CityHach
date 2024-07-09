@@ -7,6 +7,8 @@ import { Layout } from './layout.tsx';
 import { ErrorPage } from './error-page'
 import { ProtectedRoute } from './protected-route.tsx';
 import ProfileProvider from '../components/ProfileProvider.tsx';
+import CompanyProfileComponet from '../components/CompagnyProfile.tsx';
+import TrainingList from '../pages/orgs/CouseList/page.tsx';
 
 const AuthPage = lazy(() => import('../pages/auth.page'));
 const LandingPage = lazy(() => import('../pages/landing.page.tsx'));
@@ -58,10 +60,32 @@ export default function AppRouter() {
 					]
 				},
 
-				// Les routes concernant uniquement les talents
+				// Les routes concernant uniquement le profile des talents
 				{
 					path: 'Profile',
 					element: <ProfileProvider  />,
+					errorElement: <ErrorPage />,
+					children: [
+						
+
+					]
+				},
+
+
+				// Les routes concernant uniquement le profile des Compagnies
+				{
+					path: 'compagnie',
+					element: <CompanyProfileComponet  />,
+					errorElement: <ErrorPage />,
+					children: [
+						
+
+					]
+				},
+				// Les routes concernant uniquement le profile des Compagnies
+				{
+					path: 'courses',
+					element: <TrainingList  />,
 					errorElement: <ErrorPage />,
 					children: [
 						
