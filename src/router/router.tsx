@@ -9,6 +9,7 @@ import { ProtectedRoute } from './protected-route.tsx';
 
 const AuthPage = lazy(() => import('../pages/auth.page'));
 const LandingPage = lazy(() => import('../pages/landing.page.tsx'));
+const ChatApp = lazy(() => import('./../pages/chat2.tsx'));
 const ShowcasePage = lazy(() => import('../pages/talents-showcase.page.tsx'));
 
 const OrgsHome = lazy(() => import('../pages/orgs/home.tsx'));
@@ -32,6 +33,11 @@ export default function AppRouter() {
 				{
 					path: 'showcase',
 					element: <ShowcasePage />,
+				},
+
+				{
+					path: 'chat',
+					element: <ChatApp />,
 				},
 
 

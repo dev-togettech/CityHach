@@ -5,7 +5,7 @@ export function Layout(): JSX.Element {
 	// TODO: utiliser l'auth context pour reccuperer le statut
 	return (
 		<>
-		<NavBar />
+		{/* <NavBar /> */}
 			<div className="container">
 
 				<Outlet/>
