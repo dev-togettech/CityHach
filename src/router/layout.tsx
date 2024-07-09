@@ -1,14 +1,16 @@
 import {Outlet} from 'react-router-dom';
+import NavBar from '../components/navbar';
 
 export function Layout(): JSX.Element {
+	// TODO: utiliser l'auth context pour reccuperer le statut
 	return (
 		<>
-		La navbar ici
+		<NavBar />
 			<div className="container">
 
 				<Outlet/>
 				
-				Le footer ici
+				{/* Le footer ici */}
 
 			</div>
 		</>

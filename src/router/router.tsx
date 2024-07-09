@@ -11,19 +11,23 @@ const AuthPage = lazy(() => import('../pages/auth.page'));
 const LandingPage = lazy(() => import('../pages/landing.page.tsx'));
 const ShowcasePage = lazy(() => import('../pages/talents-showcase.page.tsx'));
 
+const OrgsHome = lazy(() => import('../pages/orgs/home.tsx'));
+
 export default function AppRouter() {
 	const router = createBrowserRouter([
+		{
+			path: '',
+			index: true,
+			errorElement: <ErrorPage />,
+			element: <LandingPage />,
+		},
 		{
 			path: '/',
 			errorElement: <ErrorPage />,
 			element: <Layout />,
 			children: [
 				// pages non protegées
-				{
-					path: '',
-					index: true,
-					element: <LandingPage />,
-				},
+				
 
 				{
 					path: 'showcase',
@@ -39,7 +43,11 @@ export default function AppRouter() {
 					errorElement: <ErrorPage />,
 					children: [
 						
-
+						{
+							path: '',
+							index:true,
+							element: <OrgsHome />,
+						},
 					]
 				},
 
@@ -60,6 +68,8 @@ export default function AppRouter() {
 		{
 			path: 'auth',
 			element: <AuthPage />,
+			errorElement: <ErrorPage />,
+
 		},
 
 	])
